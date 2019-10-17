@@ -1,0 +1,153 @@
+
+/*whole section css*/
+
+
+body{background: url(../img/bird.jpg)no-repeat;
+	background-size: cover; 
+	font-family: 'Merienda', cursive;
+}
+.container{
+	width: 640px;
+	margin: 10% auto;
+
+}
+
+/*index css*/
+.login-section{
+	background-color: #808080;
+	opacity: .7;
+	padding: 50px;
+
+}
+
+
+.login-section img{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	display: block;
+}
+
+.login-section h1{
+	text-align: center;
+}
+
+.textPannel{
+
+	width: 97%;
+	height: 32%;
+	padding: 7px;
+	
+	margin-bottom: 8px;
+}
+.loginPannel{
+	background-color: #330000;
+	color: #FFFFFF;
+	padding: 4px 8px;
+	text-transform: uppercase;
+	margin: auto;
+	display: block;
+	transition: .8s ease;
+}
+.loginPannel:hover{
+	box-shadow: 3px 0px 30px #FFFF00;
+}
+
+
+/*next link css*/
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #330000;
+}
+
+
+/*sign Up section css*/
+
+.NormalSection{
+	text-align: center;
+
+}
+.NormalSection h2,h3,h4,h5{
+	font-size: 20px;
+	color: #E0E0E0;
+}
+.NormalSection p{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.data{
+
+	width: 50%;
+	
+	padding: 7px;
+	
+	margin-bottom: 8px;
+	}
+	.GenClass{
+		font-size: 15px;
+		color: #E0E0E0;
+	}
+	.savePanel{
+	background-color: #A0A0A0;
+	color: #660066;
+	padding: 4px 8px;
+	text-transform: uppercase;
+	margin: auto;
+	display: block;
+	transition: .8s ease;
+	}
+	.savePanel:hover{
+	box-shadow: 3px 0px 30px #66CC00;
+}
+
+
+/*reset pass section*/
+
+.myClass{
+	background-color: #193300;
+	padding: 50px;
+	font-size:25px;
+	opacity: .7;
+}
+.myClass h1{
+	font-size: 39px;
+	color: #330000;
+}
+.EmailOne{
+	width: 76%;
+	padding: 7px;
+	margin: 1px;
+}
+.SubmitBtn{
+	margin: 0px;
+	background-color: #666600;
+	color: #FFFF;
+	padding: 4px 8px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	transition: .8s ease;
+}
+.SubmitBtn:hover{
+	box-shadow: 3px 0px 30px #FFFF00;
+}
+
+.EmailNew{
+	width: 76%;
+	padding: 7px;
+	margin-bottom: 8px;
+}
+
+.SubmitNew{
+	background-color: #666600;
+	color: #FFFF;
+	padding: 4px 8px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	transition: .8s ease;
+	}
+
+	.SubmitNew:hover{
+	box-shadow: 3px 0px 30px #CC0000;
+}
